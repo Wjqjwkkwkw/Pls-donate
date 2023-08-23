@@ -318,7 +318,7 @@ local SaveManager = loadstring(game:HttpGet(repoLib .. 'addons/SaveManager.lua')
 local positionX = workspace:WaitForChild('Boomboxes'):WaitForChild('Spawn')
 
 local Window = Library:CreateWindow({
-	Title = 'pls donate | szze#6220',
+	Title = 'pls donate | by giddy',
 	Center = true,
 	AutoShow = true,
 })
@@ -341,7 +341,7 @@ local miscMainT = Tabs.miscTab:AddRightGroupbox('')
 local infoMain = Tabs.InfoTab:AddLeftGroupbox('')
 local infoExpand = Tabs.InfoTab:AddRightGroupbox('')
 
-infoMain:AddLabel('Pls Donate | overhaul by szze#6220')
+infoMain:AddLabel('Pls Donate | overhaul by giddy')
 infoMain:AddLabel('Config saves every 10 seconds')
 
 boothTextSettings:AddInput('boothTextTextbox', {
